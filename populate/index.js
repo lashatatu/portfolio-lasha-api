@@ -1,6 +1,6 @@
 const config = require('../config');
 const mongoose = require('mongoose');
-const fakeDB = require('./FakeDB');
+const fakeDB = require('./fakeDB');
 
 mongoose.connect(config.DB_URI, {
   useNewUrlParser: true,
